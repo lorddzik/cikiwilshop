@@ -9,7 +9,7 @@ const ShopCard = ({ shop }) => {
             <div className="bg-white border border-gray-200 rounded-xl p-4 flex flex-col items-center gap-3 hover:shadow-lg transition-all duration-300 h-full hover:-translate-y-1">
                 <div className="relative w-20 h-20 flex-shrink-0">
                     <img
-                        src={shop.storeAvatarUrl || shop.avatarUrl || 'https://via.placeholder.com/150'}
+                        src={shop.storeAvatarUrl || 'https://via.placeholder.com/150'}
                         alt={shop.storeName}
                         className="w-full h-full object-cover rounded-full border-2 border-gray-100 shadow-sm"
                     />

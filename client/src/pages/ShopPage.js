@@ -45,7 +45,7 @@ const ShopPage = () => {
       {/* Bagian Header Toko */}
       <div className="bg-white p-6 rounded-lg shadow-lg mb-8 flex items-center gap-6">
         <img
-          src={shop.avatarUrl || '/logo192.png'}
+          src={shop.storeAvatarUrl || 'https://via.placeholder.com/150'}
           alt={shop.storeName}
           className="w-24 h-24 rounded-full border-4 border-primary-yellow object-cover"
         />
